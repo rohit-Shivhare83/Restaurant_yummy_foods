@@ -1,0 +1,60 @@
+.reply {
+  color: #1f3a69;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+  /* font-family: "Albert Sans", sans-serif; */
+  scroll-behavior: smooth;
+}
+.reply_container {
+  height: max-content;
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+}
+.reply_head h2 {
+  margin: 1rem 0;
+  text-align: center;
+}
+.reply_head hr {
+  width: 40%;
+  margin: auto;
+  border: solid #168290;
+}
+.reply_para {
+  width: 100%;
+  font-family: "ABeeZee", sans-serif;
+  margin: 1.5rem 0;
+}
+.reply_form {
+  font-family: "ABeeZee", sans-serif;
+}
+.reply_form input {
+  padding: 0 1em;
+  margin: 0.5rem 0;
+  height: 2.5rem;
+  width: 60%;
+  border: 1px solid #1f3a69;
+  border-radius: 5px;
+}
+.reply_form textarea {
+  border: 1px solid #1f3a69;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+#reply_btn {
+  padding: 0.6rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  color: #f6fcfff3;
+  background-color: #1f3a69;
+  font-size: 15px;
+  transition: transform 0.07s;
+}
+#reply_btn:hover {
+  transform: scale(1.04);
+  color: #1f3a69cf;
+  border-color: none;
+  background-color: transparent;
+}
